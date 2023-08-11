@@ -1,0 +1,412 @@
+/* Your CSS styling for the plans and forms */
+
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.signup-link,
+.login-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signup-link a,
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover,
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+.plan {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  text-align: center;
+
+}
+
+.plan h3 {
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.select-plan-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.select-plan-button:hover {
+  background-color: #0056b3;
+}
+
+.payment-form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.payment-form-container h2 {
+  margin-top: 0;
+}
+
+#payment-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+#payment-form select,
+#payment-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.order-summary {
+  margin-top: 30px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+
+.avail{
+  
+  display: flex;
+}
+.subscribe-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3;
+}
+
+.selected-plan-details {
+  display: none;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.selected-plan-details h2 {
+  margin-top: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.avail {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+  flex-wrap: wrap;
+}
+
+.plan {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 240px;
+  text-align: center;
+  margin: 0 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.plan.basic {
+  width: 100%;
+}
+
+.plan h2 {
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  padding: 5px;
+  text-align: left;
+}
+
+.select-plan-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: backgrount-color 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  /*margin-top: 20px;
+  width: 100%;
+  border-radius: 4px;*/
+}
+
+.select-plan-button:hover, #billingInterval {
+  background-color: #0056b3;
+  transform: translate(-50%,-2px);
+  box-shadow: 0 6px 8px rgba;
+}
+
+.selected-plan-container, #billingInterval {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.active-badge {
+  position: absolute;
+  right: 200px;
+ /* top: 0;
+  left: 0;*/
+  background-color: #91c0ee;
+  color: white;
+  padding: 4px 8px;
+  font-weight: thin;
+  border-radius: 5px 0 0 5px;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan-details, .payment-details, .subscription-dates {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+.plan-details h2, .payment-details h2, .subscription-dates h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Your existing styles */
+
+.selected-plan-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan-details, .payment-details, .subscription-description {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+.plan-details h2, .payment-details h2, .subscription-description p {
+  margin-top: 0;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#Regular,#Premium,#Standard,#basic{
+  display: flex;
+  overflow-wrap: normal;
+ margin: 10px;
+ padding: 20px;
+ box-sizing: border-box;
+
+  align-items: center;
+  justify-content: center;
+}
+.heading--container{
+  position: relative;
+  text-align: center;
+}
+.heading{
+  position: absolute;
+  top: 0;
+  height: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+.billing {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+}
+
+.select-button {
+  margin-top: auto;
+}

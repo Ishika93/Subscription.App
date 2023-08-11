@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="payment-form-container">
+        <h2>Payment Information</h2>
+        <form id="payment-form">
+          <label for="billing-cycle">Billing Interval:</label>
+          <select id="billing-cycle">
+            <option value="monthly">Monthly</option>
+            <option value="yearly">Yearly</option>
+          </select>
+          <label for="card-number">Card Number:</label>
+          <input type="text" id="card-number" required>
+          <label for="card-expiry">Expiration Date:</label>
+          <input type="text" id="card-expiry" placeholder="MM / YY" required>
+          <label for="card-cvc">CVC:</label>
+          <input type="text" id="card-cvc" required>
+          <button type="submit" class="subscribe-button">Subscribe</button>
+          <div class="order-summary" id="order-summary">
+            <h2>Order Summary</h2>
+            <p><strong>Selected Plan:</strong> <span id="selected-plan"></span></p>
+            <p><strong>Billing Cycle:</strong> <span id="billing-cycle-summary"></span></p>
+            <p><strong>Plan Price:</strong> <span id="plan-price-summary"></span></p>
+        </form>
+      <!--</div>
+      <div class="order-summary" id="order-summary">
+        <h2>Order Summary</h2>
+        <p><strong>Selected Plan:</strong> <span id="selected-plan"></span></p>
+        <p><strong>Billing Cycle:</strong> <span id="billing-cycle-summary"></span></p>
+        <p><strong>Plan Price:</strong> <span id="plan-price-summary"></span></p>
+      </div>
+      <!--<div class="selected-plan-details" id="selected-plan-details">
+        <h2>Selected Plan Details</h2
+        <p id="selected-plan"></p>
+        <p id="selected-interval"></p>
+      </div>-->
+      <script src="scripts.js"></script>
+    </body>
+    </html>
+    
+    
+</body>
+</html>

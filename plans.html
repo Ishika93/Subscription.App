@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Available Plans</title>
+</head>
+<body>
+  <div class="body">
+   <div class="heading-container">
+   
+     <h1 class = "heading">Select Your Plan</h1>
+   </div> 
+   
+   <div class="plans-container">
+    <div class="plan">
+        
+      <div class="plan" id="basic">Basic
+      </div>
+      <p class="price">100 INR monthly</p>
+      <p class="price">1000 INR yearly</p>
+      <p>Video quality: Good</p>
+      <p>Resolution: 480p</p>
+      <p>Devices: Phone</p>
+      <p>Screens: 1</p>
+    </div>
+   </div>
+   
+   <div class="plans-container">
+    <div class="plan">
+      <div class="plan" id="Standard">Standard
+      </div>
+      <p class="price">200 INR monthly</p>
+      <p class="price">2000 INR yearly</p>
+      <p>Video quality: Good</p>
+      <p>Resolution: 720p</p>
+      <p>Devices: Phone+Tablet</p>
+      <p>Screens: 3</p>
+    </div>
+   </div>
+   
+   <div class="plans-container">
+    <div class="plan">
+      <div class="plan" id="Premium">Premium
+      </div>
+      <p class="price">500 INR monthly</p>
+      <p class="price">5000 INR yearly</p>
+      <p>Video quality: Better</p>
+      <p>Resolution: 1080p</p>
+      <p>Devices: Phone+Tablet+Computer</p>
+      <p>Screens: 5</p>
+    </div>
+   </div>
+   
+   <div class="plans-container">
+    <div class="plan">
+      <div class="plan" id="Regular">Regular
+      </div>
+      <p class="price">700 INR monthly</p>
+      <p class="price">7000 INR Yearly</p>
+      <p>Video quality: Best</p>
+      <p>Resolution: 4K+HDR</p>
+      <p>Devices: Phone+Tablet+TV</p>
+      <p>Screens: 10</p>
+    </div>
+   </div>
+   
+   </div>
+
+ </div>
+  
+<!-- Repeat similar divs for other plans -->
+</div>
+<div class="billing">
+  <select id="billingInterval">
+   <option value="monthly">Monthly</option>
+   <option value="yearly">Yearly</option>
+ </select>
+ </div>
+<div class="buttonplan">
+
+  <button class="select-plan-button" data-plan="basic" onclick="location.href='payment.html'">select
+    </button>
+</div>
+   
+  <script src="script.js"></script>
+</body>
+</html>
